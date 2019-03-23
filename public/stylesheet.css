@@ -12,9 +12,9 @@ body, html{
     margin: 15px 20px 20px 0px;
 }
 .navbar li{
-    font-size:20px;
+    font-size:25px;
     color:black;
-    padding:10px;
+    padding:10px 20px;
     float:left;
 }
 .link{
@@ -87,22 +87,36 @@ body, html{
     font-size:25px;
     color:black;
     padding:10px;
+    text-align:center;
+}
+#art3 ol{
+    font-size:25px;
+    color:black;
+    padding:40px;
 }
 #main img, #art1 img, #art2 img, #art3 img{
     width:100%;
     padding:10px;
+    vertical-align:middle;
 }
-#main a, #art1 a, #art2 a, #art3 a{
-    text-decoration:none;
-    color:black;
+.weblink{
+    text-decoration:underline;
+    color:blue;
 }
-#main a:hover, #art1 a:hover, #art2 a:hover, #art3 a:hover{
-    text-decoration:none;
-    color:rgba(20,20,20,.5);
+.weblink:hover{
+    color:blueviolet;
 }
 .topText{
     font-size:18px;
     text-align:center;
+}
+.topA{    
+    text-decoration:none;
+    color:black;
+}
+.topA:hover{
+    text-decoration:none;
+    color:rgba(20,20,20,.5);
 }
 .break{
     border: 5px solid black;
@@ -114,4 +128,5 @@ body, html{
     color:black;
     font-size:15px;
 }
+
 
